@@ -1,3 +1,4 @@
+source ~/.proxy.sh
 mvn clean package
 docker build -t my-web-demo:1.0.0 .
 docker tag my-web-demo:1.0.0 ghcr.io/alexhanl/my-web-demo:1.0.0
